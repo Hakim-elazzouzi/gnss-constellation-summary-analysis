@@ -61,7 +61,8 @@ project5-constellation-summary/
 │   ├── plot2_snr_distribution.png
 │   ├── plot3_pseudorange_distribution.png
 │   └── plot4_full_gnss_heatmap.png
-├── project5_constellation_summary.ipynb   ← Main notebook
+├── src/
+│   ├──project5_constellation_summary.py    ← Main python
 ├── requirements.txt                        ← Python dependencies
 ├── LICENSE                                 ← MIT License
 └── README.md                               ← This file
