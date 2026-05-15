@@ -1,10 +1,10 @@
-# 📊 Project 5 — Constellation Summary: Pie Chart & Histograms
+# Project 5 — Constellation Summary: Pie Chart & Histograms
 
 > **Observation Share · SNR Distribution · Pseudorange Bands · Full GNSS Heatmap | Auckland, NZ**
 
 ---
 
-## 📌 Overview
+## Overview
 
 After analysing individual satellites in Projects 1–4, this project steps back and asks:
 
@@ -15,14 +15,14 @@ combining four complementary views into one cohesive analysis.
 
 | Plot | What It Shows |
 |------|---------------|
-| 🥧 Pie + bar chart | Observation share and satellite count per constellation |
-| 📊 SNR histogram + box plot | Signal quality distribution, median, IQR, outliers |
-| 📈 Pseudorange histogram | Range measurement distribution — each system in its orbital band |
-| 🌡️ Full GNSS heatmap | Every satellite from every system over 24 hours |
+| Pie + bar chart | Observation share and satellite count per constellation |
+| SNR histogram + box plot | Signal quality distribution, median, IQR, outliers |
+| Pseudorange histogram | Range measurement distribution — each system in its orbital band |
+| Full GNSS heatmap | Every satellite from every system over 24 hours |
 
 ---
 
-## 🖼️ Output Plots
+## Output Plots
 
 ### Plot 1 — Constellation Observation Share
 
@@ -52,7 +52,7 @@ in the file.
 
 ---
 
-## 📂 File Structure
+## File Structure
 
 ```
 project5-constellation-summary/
@@ -70,7 +70,7 @@ project5-constellation-summary/
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Install dependencies
 
@@ -97,7 +97,7 @@ codes present in your file.
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -109,7 +109,7 @@ codes present in your file.
 
 ---
 
-## 🧭 Observables Used
+## Observables Used
 
 The notebook auto-detects the best available code per constellation:
 
@@ -123,14 +123,14 @@ The notebook auto-detects the best available code per constellation:
 
 ---
 
-## 💡 Technical Note — SNR Heatmap
+## Technical Note — SNR Heatmap
 
 All heatmaps in this project use `imshow` with `extent=` and `ax.xaxis_date()`,
 avoiding the `pcolormesh` blank-plot issue documented in Project 1.
 
 ---
 
-## 👤 Author
+## Author
 
 **Hakim El Azzouzi**  
 MSc Global Navigation Satellite Systems  
@@ -141,13 +141,13 @@ Mohammed First University, Oujda, Morocco
 
 ---
 
-## 📜 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## 🔗 Part of the GNSS RINEX Analysis Series
+## Part of the GNSS RINEX Analysis Series
 
 | # | Project |
 |---|---------|
