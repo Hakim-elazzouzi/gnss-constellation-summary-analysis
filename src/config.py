@@ -3,7 +3,7 @@
 # Constellation Summary: Pie Chart & Histograms
 # ─────────────────────────────────────────────────────────────
 
-OBS_PATH = "/mnt/user-data/uploads/AUCK00NZL_R_20260010000_01D_30S_MO.rnx"
+OBS_PATH = "/AUCK00NZL_R_20260010000_01D_30S_MO.rnx"
 
 # Constellation order used throughout (data collection + plots)
 CONSTELLATIONS = ['G', 'R', 'E', 'C', 'J', 'S']
