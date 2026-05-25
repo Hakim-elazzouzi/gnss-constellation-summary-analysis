@@ -62,12 +62,12 @@ project5-constellation-summary/
 │   ├── plot3_pseudorange_distribution.png
 │   └── plot4_full_gnss_heatmap.png
 ├── src/
-│   ├── config.py          ← all constants, codes, colours, thresholds
-│   ├── rinex_loader.py    ← loads per-constellation and merges
-│   ├── data_collector.py  ← gathers SNR + PR arrays per constellation + finds best SNR code for the heatmap
-│   ├── reporting.py       ← all console print functions
-│   ├── visualization.py   ← plot1 (pie+bar), plot2 (SNR hist+box), and plot3 (PR hist), plot4 (full heatmap)
-│   └── main.py            ← orchestrates the pipeline
+│   ├── config.py          
+│   ├── rinex_loader.py    
+│   ├── data_collector.py  
+│   ├── reporting.py       
+│   ├── visualization.py   
+│   └── main.py            
 ├── requirements.txt                                                     ← Python dependencies
 ├── LICENSE                                                              ← MIT License
 └── README.md                                                            ← This file
